@@ -42,7 +42,7 @@ if(isset($_POST["daftar"])) {
                     <input type="text" name="nama" id="nama" required>
                     <br><br>
                     <label for="tanggal_lahir">Tanggal Lahir :</label><br>
-                    <input type="date" name="tanggal_lahir" id="tanggal_lahir" required>
+                    <input type="date" name="tanggal_lahir" id="tgl_lahir" required>
                     <br><br>
                     <label for="alamat">Alamat :</label><br>
                     <input type="text" name="alamat" id="alamat" required>

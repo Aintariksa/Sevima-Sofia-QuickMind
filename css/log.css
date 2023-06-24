@@ -17,7 +17,16 @@ body {
     /* height: 100vh; */
 }
   
-.masuk, .daftar {
+.masuk {
+    margin: 120px;
+    width: 350px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.daftar {
     margin: 30px;
     width: 350px;
     padding: 20px;

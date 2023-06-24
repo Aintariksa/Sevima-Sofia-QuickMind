@@ -1,27 +1,13 @@
 <?php
 
-require 'koneksi.php';
+// require 'koneksi.php';
 
 // session_start();
 
+include("koneksi.php");
 if (isset($_POST["masuk"])){
-    
-    if(masuk($_POST) > 0) {
-        echo "
-            <script>
-            alert('Selamat, anda berhasil masuk!');
-            document.location.href = 'user/index.php';
-            </script>
-            ";
-        } else {
-            echo "
-            <script>
-            alert('Yah t___t kamu belum bisa masuk!');
-            document.location.href = 'masuk.php';
-            </script>
-            ";
-        }
-
+    masuk($_POST);
+    // $_SESSION['nama'] = $nama;
 }
 
 ?>
