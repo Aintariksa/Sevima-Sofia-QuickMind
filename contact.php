@@ -3,7 +3,7 @@
 // require 'koneksi.php';
 include("koneksi.php");
 
-if(isset($_POST["pesan"])) {
+if(isset($_POST["pesann"])) {
  
     if(pesan($_POST) > 0) {
     echo "
@@ -68,23 +68,23 @@ if(isset($_POST["pesan"])) {
                <div class="row">
                   <div class="col-md-6">
                      <div class="email_text">
-                        <form action="" method="post">
                         <div class="form-group">
-                           <input type="text" class="email-bt" id="nama" placeholder="Nama">
+                           <form action="" method="post">
+                           <input type="text" class="email-bt" name="nama" placeholder="Nama">
                         </div>
                         <div class="form-group">
-                           <input type="number" class="email-bt" id="notelf" placeholder="Nomor Telepon">
+                           <input type="number" class="email-bt" name="notelf" placeholder="Nomor Telepon">
                         </div>
                         <div class="form-group">
-                           <input type="text" class="email-bt" id="email" placeholder="Email">
+                           <input type="text" class="email-bt" name="email" placeholder="Email">
                         </div>
                         <div class="form-group">
-                           <textarea class="massage-bt" type="text" id="pesan" placeholder="Pesan Yang Ingin Disampaikan" rows="5" id="comment" name="Massage"></textarea>
+                           <textarea class="massage-bt" name="pesan" placeholder="Pesan Yang Ingin Disampaikan" rows="5"></textarea>
                         </div>
                         <div class="send_btn">
-                           <button type="submit" name="pesan">KIRIM</button>
-                        </div>
+                           <button type="submit" name="pesann">KIRIM</button>
                         </form>
+                        </div>
                      </div>
                   </div>
                   <div class="col-md-6">
@@ -105,7 +105,7 @@ if(isset($_POST["pesan"])) {
       <!--copyright section start -->
       <div class="copyright_section">
          <div class="container">
-            <p class="copyright_text">Copyright 2023 All Right Reserved By <a href="https://html.design">Free Html Templates</a> Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
+            <!-- <p class="copyright_text">Copyright 2023 All Right Reserved By <a href="https://html.design">Free Html Templates</a> Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p> -->
          </div>
       </div>
       <!--copyright section end -->

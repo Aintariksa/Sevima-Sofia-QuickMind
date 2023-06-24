@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(to bottom, #4c35bc, #352484);
+    color: #ffffff;
+    font-family: 'IcoMoon-Free';
+    margin: 0;
+    padding: 20px;
+  }
+
+  .container{
+    /* width: 100%; */
+    margin: 100px;
+  }
+
+  @font-face {
+    font-family: 'IcoMoon-Free';
+    src: url('../fonts/IcoMoon-Free.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+  h2 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  button {
+    background: linear-gradient(to bottom, #ffffff, #e3e3e3);
+    color: #4c35bc;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  button:hover {
+    background: linear-gradient(to bottom, #4c35bc, #352484);
+    color: #ffffff;
+  }
+  
