@@ -5,25 +5,24 @@
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
                <span class="navbar-toggler-icon"></span>
                </button>
+               <a href="login.php" style="color:white">Masuk</a>
+               <a href="daftar.php" style="color:white">Daftar</a>
                <div class="collapse navbar-collapse" id="navbarsExample01">
                   <ul class="navbar-nav mr-auto">
                      <li class="nav-item">
-                        <a class="nav-link" href="index.php">Home</a>
+                        <a class="nav-link" href="index.php">Utama</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="about.php">About</a>
+                        <a class="nav-link" href="about.php">Tentang Kami</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="services.php">Services</a>
+                        <a class="nav-link" href="services.php">Quiz</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="blog.php">Blog</a>
+                        <a class="nav-link" href="blog.php">Tanya Jawab</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="client.php">Client</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact Us</a>
+                        <a class="nav-link" href="contact.php">Kontak Kami</a>
                      </li>
                   </ul>
                </div>

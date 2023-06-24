@@ -43,9 +43,11 @@
                         <div class="row">
                            <div class="col-md-6">
                               <div class="taital_main">
-                                 <h4 class="banner_taital">Web Agency</h4>
-                                 <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem I</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
+                                 <h4 class="banner_taital">Quick Mind</h4>
+                                 <p class="banner_text">Apabila kamu merasa kurang percaya diri dalam pemahamanmu mengenai pelajaran,
+                                    jangan takut! Ayo tingkatkan pemahaman dan pengetahuanmu di Quick Mind.
+                                 </p>
+                                 <div class="read_bt"><a href="about.php">Baca Lebih Lanjut</a></div>
                               </div>
                            </div>
                            <div class="col-md-6">
@@ -55,6 +57,24 @@
                      </div>
                   </div>
                   <div class="carousel-item">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="taital_main">
+                                 <h4 class="banner_taital">Quiz QnA</h4>
+                                 <p class="banner_text">Di Quick Mind, kamu bisa mengikuti 2 hal yang akan bermanfaat, lho! Yaitu kamu bisa mengikuti Quiz,
+                                    dan juga kamu bisa menanyakan sesuatu di Quick Mind.
+                                 </p>
+                                 <div class="read_bt"><a href="#">Read More</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div><img src="images/girl-work-on-laptop.png" class="image_1"></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- <div class="carousel-item">
                      <div class="container">
                         <div class="row">
                            <div class="col-md-6">
@@ -69,23 +89,7 @@
                            </div>
                         </div>
                      </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="taital_main">
-                                 <h4 class="banner_taital">Web Agency</h4>
-                                 <p class="banner_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem I</p>
-                                 <div class="read_bt"><a href="#">Read More</a></div>
-                              </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div><img src="images/img-1.png" class="image_1"></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                  </div> -->
                </div>
                <a class="carousel-control-prev" href="#my_slider" role="button" data-slide="prev">
                <i class=""><img src="images/left-icon.png"></i>
@@ -99,7 +103,7 @@
       </div>
       <!--header section end -->
       <!--about section start -->
-      <div class="about_section layout_padding">
+      <!-- <div class="about_section layout_padding">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
@@ -112,37 +116,38 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!--about section end -->
       <!--services section start -->
       <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="service_taital"><span class="our_text">Our</span> Services</h1>
-            <p class="service_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+            <h1 class="service_taital"><span class="our_text">Layanan</span> Kami</h1>
+            <p class="service_text">Quick Mind memiliki 2 hal yang dapat sangat membantumu!</p>
             <div class="services_section_2">
                <div class="row">
-                  <div class="col-sm-4">
+                  <div class="col-6">
                      <div class="icon_1"><img src="images/icon-1.png"></div>
-                     <h4 class="design_text">Logo Design</h4>
-                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                     <div class="icon_1"><img src="images/icon-2.png"></div>
-                     <h4 class="design_text">Web Development</h4>
+                     <h4 class="design_text">QUIZ</h4>
                      <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
                   </div>
-                  <div class="col-sm-4">
-                     <div class="icon_3"><img src="images/icon-3.png"></div>
+                  <div class="col-sm-6">
+                  <div class="icon_1"><img src="images/icon-2.png"></div>
+                     <h4 class="design_text">QnA</h4>
+                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                  </div>
+                     <!-- <div class="icon_3"><img src="images/icon-3.png"></div>
                      <h4 class="design_text">Web Design</h4>
                      <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
                      <div class="read_bt_2"><a href="#">Read More</a></div>
-                  </div>
-                  <div class="col-sm-4">
+                  </div> -->
+                  <!-- <div class="col-sm-4">
                      <div class="icon_1"><img src="images/icon-4.png"></div>
                      <h4 class="design_text">Banner Design</h4>
                      <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
                      <div class="icon_1"><img src="images/icon-5.png"></div>
                      <h4 class="design_text">Social Media Work</h4>
                      <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>
@@ -321,49 +326,7 @@
       </div>
       <!--client section end -->
       <!--footer section start -->
-      <div class="footer_section layout_padding">
-         <div class="container">
-            <div class="address_main">
-               <div class="address_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_15">Loram Ipusm hosting web</span></a></div>
-               <div class="address_text"><a href="#"><img src="images/call-icon.png"><span class="padding_left_15">+7586656566</span></a></div>
-               <div class="address_text"><a href="#"><img src="images/mail-icon.png"><span class="padding_left_15">demo@gmail.com</span></a></div>
-            </div>
-            <div class="footer_section_2">
-               <div class="row">
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">Useful link</h4>
-                     <div class="footer_menu">
-                        <ul>
-                           <li><a href="index.php">Home</a></li>
-                           <li><a href="about.php">About</a></li>
-                           <li><a href="services.php">Services</a></li>
-                           <li><a href="contact.php">Contact Us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">web design</h4>
-                     <p class="footer_text">Lorem ipsum dolor sit amet, consectetur adipiscinaliquaL oreadipiscing </p>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">social media</h4>
-                     <div class="social_icon">
-                        <ul>
-                           <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                           <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                           <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                           <li><a href="#"><img src="images/youtub-icon.png"></a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">Our Branchs</h4>
-                     <p class="footer_text_1">Lorem ipsum dolor sit amet, consectetur adipiscinaliquaLoreadipiscing </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      <?php require_once 'footer.php'; ?>
       <!--client section end -->
       <!--copyright section start -->
       <div class="copyright_section">

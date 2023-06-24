@@ -52,56 +52,7 @@
       </div>
       <!--about section end -->
       <!--footer section start -->
-      <div class="footer_section layout_padding margin_top_90">
-         <div class="container">
-            <div class="address_main">
-               <div class="address_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_15">Loram Ipusm hosting web</span></a></div>
-               <div class="address_text"><a href="#"><img src="images/call-icon.png"><span class="padding_left_15">+7586656566</span></a></div>
-               <div class="address_text"><a href="#"><img src="images/mail-icon.png"><span class="padding_left_15">demo@gmail.com</span></a></div>
-            </div>
-            <div class="footer_section_2">
-               <div class="row">
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">Useful link</h4>
-                     <div class="footer_menu">
-                        <ul>
-                           <li><a href="index.php">Home</a></li>
-                           <li><a href="about.php">About</a></li>
-                           <li><a href="services.php">Services</a></li>
-                           <li><a href="contact.php">Contact Us</a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">web design</h4>
-                     <p class="footer_text">Lorem ipsum dolor sit amet, consectetur adipiscinaliquaL oreadipiscing </p>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">social media</h4>
-                     <div class="social_icon">
-                        <ul>
-                           <li><a href="#"><img src="images/fb-icon.png"></a></li>
-                           <li><a href="#"><img src="images/twitter-icon.png"></a></li>
-                           <li><a href="#"><img src="images/linkedin-icon.png"></a></li>
-                           <li><a href="#"><img src="images/youtub-icon.png"></a></li>
-                        </ul>
-                     </div>
-                  </div>
-                  <div class="col-lg-3 col-sm-6">
-                     <h4 class="link_text">Our Branchs</h4>
-                     <p class="footer_text_1">Lorem ipsum dolor sit amet, consectetur adipiscinaliquaLoreadipiscing </p>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!--footer section end -->
-      <!--copyright section start -->
-      <div class="copyright_section">
-         <div class="container">
-            <p class="copyright_text">Copyright 2023 All Right Reserved By <a href="https://html.design">Free Html Templates</a> Distributed by: <a href="https://themewagon.com">ThemeWagon</a></p>
-         </div>
-      </div>
+      <?php require_once 'footer.php'; ?>
       <!--copyright section end -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
