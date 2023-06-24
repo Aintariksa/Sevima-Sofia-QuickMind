@@ -1,2 +1,2 @@
 # Sevima-SofiaMalvalenaAdam-QuickMind
- Sofia Malvalena Adam, Programmer in SEVIMA 2023. Aplikasi web berbasis dekstop menggunakan bahasa pemrograman utama yaitu PHP dan database MySQL.
+ Sofia Malvalena Adam, Programmer in SEVIMA 2023. Aplikasi web berbasis dekstop menggunakan bahasa pemrograman utama yaitu PHP dan database MySQL. Telah membuat suatu aplikasi berbasis AI dengan tema Pendidikan yang berjudul Quick Mind. Quick Mind sendiri merupakan aplikasi yang bisa mempermudah siapapun yang ingin belajar dalam meluaskan pengetahuannya dan mempercepat daya pikirnya. 25 Juni 2023, 6.52 AM WIB Jawa Barat, Indonesia.
