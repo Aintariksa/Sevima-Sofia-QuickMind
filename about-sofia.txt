@@ -1,0 +1,22 @@
+Beasiswa Semesta 2023 ;
+
+
+Data diri     :
+
+Nama Lengkap  : Sofia Malvalena Adam.
+TTL           : Surabaya, 23 Juli 2004.
+Asal Sekolah  : SMK PGRI 1 Depok.
+Nomor HP      : +6289654913711
+Email         : sofiaadam2307@gmail.com
+Bidang        : Programmer.
+
+
+Data Aplikasi :
+
+Nama Aplikasi : Quick Mind.
+Konsep        : Quiz dan AI sederhana tanya jawab.
+Deskripsi     : Aplikasi ini berguna untuk membantu kecepatan 
+                berpikir dan menambah pengetahuan mengenai 
+                beberapa pelajaran.
+Waktu Mulai   : 10.00 AM WIB, 24 Juni 2023.
+Waktu Selesai : 06.00 AM WIB, 25 Juni 2023.
