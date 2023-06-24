@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>About</title>
+      <title>Tentang Kami</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -43,9 +43,13 @@
                   <div class="image_2"><img src="images/img-2.png"></div>
                </div>
                <div class="col-md-6">
-                  <h1 class="about_taital">About <span class="us_text">Us</span></h1>
-                  <p class="about_text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem </p>
-                  <div class="read_bt_1"><a href="#">Read More</a></div>
+                  <h1 class="about_taital">Tentang <span class="us_text">Kami</span></h1>
+                  <p class="about_text">Quick Mind merupakan aplikasi yang berada di ranah pendidikan, yang berguna untuk membantumu
+                     setiap orang yang memiliki kemauan untuk meningkatkan pengetahuan dan juga kecepatan dalam berpikir. Quick Mind atau bisa dipanggil QuMi,
+                     telah beroperasi sejak tanggal 24 Juni 2023 yang dibuat resmi oleh Sofia Malvalena Adam. Di QuMi, kamu bisa mengikuti beberapa quiz,
+                     dan juga bertanya sesuatu kepada QuMi mengenai pengetahuan! 
+                  </p>
+                  <!-- <div class="read_bt_1"><a href="#">Read More</a></div> -->
                </div>
             </div>
          </div>

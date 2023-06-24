@@ -156,32 +156,32 @@
       <!--blog section start -->
       <div class="blog_section layout_padding">
          <div class="container">
-            <h1 class="blog_taital"><span class="our_text">Our</span> Blog</h1>
-            <p class="blog_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+            <h1 class="blog_taital"><span class="our_text">Mengapa</span> QuMi?</h1>
+            <p class="blog_text">Mengapa harus di Quick Mind? Karena kami memiliki beberapa kelebihan!</p>
             <div class="services_section_2 layout_padding">
                <div class="row">
                   <div class="col-md-4">
                      <div class="box_main">
                         <div class="student_bg"><img src="images/img-3.png" class="student_bg"></div>
-                        <div class="image_15">19<br>Feb</div>
-                        <h4 class="hannery_text">There are many variations</h4>
-                        <p class="fact_text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                        <div class="image_15">25<br>Jun</div>
+                        <h4 class="hannery_text">Banyak Jenis QUIZ</h4>
+                        <p class="fact_text">Kamu bisa memilih beberapa pelajaran yang ada di quiz QuMi, dan semuanya sudah terverifikasi.</p>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="box_main">
                         <div class="student_bg"><img src="images/img-4.png" class="student_bg"></div>
-                        <div class="image_15">19<br>Feb</div>
-                        <h4 class="hannery_text">There are many variations</h4>
-                        <p class="fact_text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                        <div class="image_15">25<br>Jun</div>
+                        <h4 class="hannery_text">Dengan AI Canggih</h4>
+                        <p class="fact_text">Jangan khawatir! QuMi memiliki AI yang sudah pasti akan menjawab pertanyaan kamu dengan teliti.</p>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="box_main">
                         <div><img src="images/img-5.png" class="student_bg"></div>
-                        <div class="image_15">19<br>Feb</div>
-                        <h4 class="hannery_text">There are many variations</h4>
-                        <p class="fact_text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                        <div class="image_15">25<br>Jun</div>
+                        <h4 class="hannery_text">Tampilan Menarik</h4>
+                        <p class="fact_text">Selain dari layanan QuMi, desain dari Quick Mind tidak akan membuat kamu merasa bosan disini!</p>
                      </div>
                   </div>
                </div>
@@ -189,8 +189,8 @@
          </div>
       </div>
       <!--blog section end -->
-      <!--newsletter section start -->
-      <div class="newsletter_section">
+      <!-- newsletter section start -->
+      <!-- <div class="newsletter_section">
          <div class="container">
             <div class="row">
                <div class="col-md-6">
@@ -205,126 +205,8 @@
                </div>
             </div>
          </div>
-      </div>
+      </div> -->
       <!--newsletter section end -->
-      <!--client section start -->
-      <div class="client_section layout_padding">
-         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-               <div class="carousel-item active">
-                  <div class="container">
-                     <h1 class="blog_taital"><span class="tes_text">Tes</span>timonial</h1>
-                     <div class="client_section_2 layout_padding">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="client_box active">
-                                 <div class="left_main">
-                                    <div class="image_6"><img src="images/img-6.png"></div>
-                                 </div>
-                                 <div class="right_main">
-                                    <h6 class="magna_text active">Magna</h6>
-                                    <p class="consectetur_text active">Consectetur adipiscing</p>
-                                    <div class="quote_icon active"></div>
-                                 </div>
-                                 <p class="ipsum_text active">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
-                              </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="client_box">
-                                 <div class="left_main">
-                                    <div class="image_6"><img src="images/img-6.png"></div>
-                                 </div>
-                                 <div class="right_main">
-                                    <h6 class="magna_text">Magna</h6>
-                                    <p class="consectetur_text">Consectetur adipiscing</p>
-                                    <div class="quote_icon"></div>
-                                 </div>
-                                 <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="blog_taital"><span class="tes_text">Tes</span>timonial</h1>
-                     <div class="client_section_2 layout_padding">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="client_box active">
-                                 <div class="left_main">
-                                    <div class="image_6"><img src="images/img-6.png"></div>
-                                 </div>
-                                 <div class="right_main">
-                                    <h6 class="magna_text active">Magna</h6>
-                                    <p class="consectetur_text active">Consectetur adipiscing</p>
-                                    <div class="quote_icon active"></div>
-                                 </div>
-                                 <p class="ipsum_text active">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
-                              </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="client_box">
-                                 <div class="left_main">
-                                    <div class="image_6"><img src="images/img-6.png"></div>
-                                 </div>
-                                 <div class="right_main">
-                                    <h6 class="magna_text">Magna</h6>
-                                    <p class="consectetur_text">Consectetur adipiscing</p>
-                                    <div class="quote_icon"></div>
-                                 </div>
-                                 <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="carousel-item">
-                  <div class="container">
-                     <h1 class="blog_taital"><span class="tes_text">Tes</span>timonial</h1>
-                     <div class="client_section_2 layout_padding">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <div class="client_box active">
-                                 <div class="left_main">
-                                    <div class="image_6"><img src="images/img-6.png"></div>
-                                 </div>
-                                 <div class="right_main">
-                                    <h6 class="magna_text active">Magna</h6>
-                                    <p class="consectetur_text active">Consectetur adipiscing</p>
-                                    <div class="quote_icon active"></div>
-                                 </div>
-                                 <p class="ipsum_text active">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
-                              </div>
-                           </div>
-                           <div class="col-md-6">
-                              <div class="client_box">
-                                 <div class="left_main">
-                                    <div class="image_6"><img src="images/img-6.png"></div>
-                                 </div>
-                                 <div class="right_main">
-                                    <h6 class="magna_text">Magna</h6>
-                                    <p class="consectetur_text">Consectetur adipiscing</p>
-                                    <div class="quote_icon"></div>
-                                 </div>
-                                 <p class="ipsum_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!--client section end -->
       <!--footer section start -->
       <?php require_once 'footer.php'; ?>
       <!--client section end -->

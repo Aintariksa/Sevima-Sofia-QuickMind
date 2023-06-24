@@ -6,7 +6,7 @@
                <span class="navbar-toggler-icon"></span>
                </button>
                <a href="login.php" style="color:white">Masuk</a>
-               <a href="daftar.php">Daftar</a>
+               <a href="daftar.php" style="color:white">Daftar</a>
                <div class="collapse navbar-collapse" id="navbarsExample01">
                   <ul class="navbar-nav mr-auto">
                      <li class="nav-item">

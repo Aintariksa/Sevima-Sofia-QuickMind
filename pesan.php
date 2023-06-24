@@ -1,29 +1,3 @@
-<?php
-
-// require 'koneksi.php';
-include("koneksi.php");
-
-if(isset($_POST["pesan"])) {
- 
-    if(pesan($_POST) > 0) {
-    echo "
-        <script>
-        alert('Siap! Terima kasih atas pesannya!');
-        document.location.href = 'pesan.php';
-        </script>
-        ";
-    } else {
-        echo "
-        <script>
-        alert('Belum terkirim, nih. Coba lagi, yuk?');
-        document.location.href = 'contact.php';
-        </script>
-        ";
-    } 
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
    <head>
@@ -34,7 +8,7 @@ if(isset($_POST["pesan"])) {
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Kontak</title>
+      <title>Terima Kasih!</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -63,38 +37,20 @@ if(isset($_POST["pesan"])) {
       <!--header section end -->
       <div class="contact_section layout_padding">
          <div class="container">
-            <h1 class="touch_taital">Kontak Kami</h1>
+            <h1 class="touch_taital">Terima kasih atas pesannya!</h1>
             <div class="contact_section_2">
                <div class="row">
                   <div class="col-md-6">
-                     <div class="email_text">
-                        <form action="" method="post">
-                        <div class="form-group">
-                           <input type="text" class="email-bt" id="nama" placeholder="Nama">
-                        </div>
-                        <div class="form-group">
-                           <input type="number" class="email-bt" id="notelf" placeholder="Nomor Telepon">
-                        </div>
-                        <div class="form-group">
-                           <input type="text" class="email-bt" id="email" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                           <textarea class="massage-bt" type="text" id="pesan" placeholder="Pesan Yang Ingin Disampaikan" rows="5" id="comment" name="Massage"></textarea>
-                        </div>
-                        <div class="send_btn">
-                           <button type="submit" name="pesan">KIRIM</button>
-                        </div>
-                        </form>
-                     </div>
+                    <p style="text-align:center;">Okay! Pesanmu sudah masuk kepada tim kami, Quick Mind!
+                Terima kasih banyak atas pesannya, ya! Semangat selalu untuk meningkatkan pengetahuan kamu!</p>
                   </div>
-                  <div class="col-md-6">
+                  <!-- <div class="col-md-6">
                      <div class="map_main">
                         <div class="map-responsive">
-                           <!-- <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe> -->
                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.7359135913425!2d106.81819217423421!3d-6.298392261641551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed1aea2566fd%3A0xa43a768fbbbd72af!2sUniversitas%20Siber%20Asia%20(UNSIA)!5e0!3m2!1sid!2sid!4v1687631090875!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                         </div>
                      </div>
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>

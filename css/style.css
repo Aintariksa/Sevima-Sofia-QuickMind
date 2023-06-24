@@ -792,7 +792,7 @@ img {
     float: left;
 }
 
-.send_btn a {
+.send_btn button {
     width: 100%;
     float: left;
     text-align: center;
@@ -800,10 +800,12 @@ img {
     color: #ffffff;
     background-color: #4c35bc;
     padding: 10px;
-    border-radius: 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    cursor: pointer;
 }
 
-.send_btn a:hover {
+.send_btn button:hover {
     color: #ffffff;
     background-color: #000;
 }
