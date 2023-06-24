@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Contact</title>
+      <title>Services</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -33,74 +33,44 @@
    </head>
    <body>
       <!--header section start -->
-      <div class="header_section header_bg">
-         <div class="container">
-            <nav class="navbar navbar-dark bg-dark">
-               <a class="logo" href="index.html"><img src="images/logo.png"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarsExample01">
-                  <ul class="navbar-nav mr-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="client.html">Client</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                     </li>
-                  </ul>
-               </div>
-            </nav>
-         </div>
-      </div>
+      <?php require_once 'navbar.php'; ?>
       <!--header section end -->
-      <div class="contact_section layout_padding">
+      <!--services section start -->
+      <div class="services_section layout_padding">
          <div class="container">
-            <h1 class="touch_taital">Contact Us</h1>
-            <div class="contact_section_2">
+            <h1 class="service_taital"><span class="our_text">Our</span> Services</h1>
+            <p class="service_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+            <div class="services_section_2">
                <div class="row">
-                  <div class="col-md-6">
-                     <div class="email_text">
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Name" name="Email">
-                        </div>
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Phone Numbar" name="Email">
-                        </div>
-                        <div class="form-group">
-                           <input type="text" class="email-bt" placeholder="Email" name="Email">
-                        </div>
-                        <div class="form-group">
-                           <textarea class="massage-bt" placeholder="Massage" rows="5" id="comment" name="Massage"></textarea>
-                        </div>
-                        <div class="send_btn"><a href="#">SEND</a></div>
-                     </div>
+                  <div class="col-sm-4">
+                     <div class="icon_1"><img src="images/icon-1.png"></div>
+                     <h4 class="design_text">Logo Design</h4>
+                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                     <div class="icon_1"><img src="images/icon-2.png"></div>
+                     <h4 class="design_text">Web Development</h4>
+                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
                   </div>
-                  <div class="col-md-6">
-                     <div class="map_main">
-                        <div class="map-responsive">
-                           <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&amp;q=Eiffel+Tower+Paris+France" width="600" height="400" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
-                        </div>
-                     </div>
+                  <div class="col-sm-4">
+                     <div class="icon_3"><img src="images/icon-3.png"></div>
+                     <h4 class="design_text">Web Design</h4>
+                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                     <div class="read_bt_2"><a href="#">Read More</a></div>
+                  </div>
+                  <div class="col-sm-4">
+                     <div class="icon_1"><img src="images/icon-4.png"></div>
+                     <h4 class="design_text">Banner Design</h4>
+                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                     <div class="icon_1"><img src="images/icon-5.png"></div>
+                     <h4 class="design_text">Social Media Work</h4>
+                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
                   </div>
                </div>
             </div>
          </div>
       </div>
+      <!--services section end -->
       <!--footer section start -->
-      <div class="footer_section layout_padding">
+      <div class="footer_section layout_padding margin_top_90">
          <div class="container">
             <div class="address_main">
                <div class="address_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_15">Loram Ipusm hosting web</span></a></div>
@@ -113,10 +83,10 @@
                      <h4 class="link_text">Useful link</h4>
                      <div class="footer_menu">
                         <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="services.html">Services</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
+                           <li><a href="index.php">Home</a></li>
+                           <li><a href="about.php">About</a></li>
+                           <li><a href="services.php">Services</a></li>
+                           <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>

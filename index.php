@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Heado</title>
+      <title>Quick Mind</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -33,37 +33,7 @@
    </head>
    <body>
       <!--header section start -->
-      <div class="header_section">
-         <div class="container">
-            <nav class="navbar navbar-dark bg-dark">
-               <a class="logo" href="index.html"><img src="images/logo.png"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarsExample01">
-                  <ul class="navbar-nav mr-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="client.html">Client</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                     </li>
-                  </ul>
-               </div>
-            </nav>
-         </div>
+      <?php require_once 'navbar.php'; ?>
          <!--banner section start -->
          <div class="banner_section layout_padding">
             <div id="my_slider" class="carousel slide" data-ride="carousel">
@@ -364,10 +334,10 @@
                      <h4 class="link_text">Useful link</h4>
                      <div class="footer_menu">
                         <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="services.html">Services</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
+                           <li><a href="index.php">Home</a></li>
+                           <li><a href="about.php">About</a></li>
+                           <li><a href="services.php">Services</a></li>
+                           <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>

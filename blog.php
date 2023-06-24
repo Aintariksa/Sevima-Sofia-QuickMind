@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Services</title>
+      <title>Blog</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -33,75 +33,64 @@
    </head>
    <body>
       <!--header section start -->
-      <div class="header_section header_bg">
-         <div class="container">
-            <nav class="navbar navbar-dark bg-dark">
-               <a class="logo" href="index.html"><img src="images/logo.png"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"></span>
-               </button>
-               <div class="collapse navbar-collapse" id="navbarsExample01">
-                  <ul class="navbar-nav mr-auto">
-                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="client.html">Client</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                     </li>
-                  </ul>
-               </div>
-            </nav>
-         </div>
-      </div>
+      <?php require_once 'navbar.php'; ?>
       <!--header section end -->
-      <!--services section start -->
-      <div class="services_section layout_padding">
+      <!--blog section start -->
+      <div class="blog_section layout_padding">
          <div class="container">
-            <h1 class="service_taital"><span class="our_text">Our</span> Services</h1>
-            <p class="service_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
-            <div class="services_section_2">
+            <h1 class="blog_taital"><span class="our_text">Our</span> Blog</h1>
+            <p class="blog_text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered </p>
+            <div class="services_section_2 layout_padding">
                <div class="row">
-                  <div class="col-sm-4">
-                     <div class="icon_1"><img src="images/icon-1.png"></div>
-                     <h4 class="design_text">Logo Design</h4>
-                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                     <div class="icon_1"><img src="images/icon-2.png"></div>
-                     <h4 class="design_text">Web Development</h4>
-                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                  <div class="col-md-4">
+                     <div class="box_main">
+                        <div class="student_bg"><img src="images/img-3.png" class="student_bg"></div>
+                        <div class="image_15">19<br>Feb</div>
+                        <h4 class="hannery_text">There are many variations</h4>
+                        <p class="fact_text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                     </div>
                   </div>
-                  <div class="col-sm-4">
-                     <div class="icon_3"><img src="images/icon-3.png"></div>
-                     <h4 class="design_text">Web Design</h4>
-                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                     <div class="read_bt_2"><a href="#">Read More</a></div>
+                  <div class="col-md-4">
+                     <div class="box_main">
+                        <div class="student_bg"><img src="images/img-4.png" class="student_bg"></div>
+                        <div class="image_15">19<br>Feb</div>
+                        <h4 class="hannery_text">There are many variations</h4>
+                        <p class="fact_text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                     </div>
                   </div>
-                  <div class="col-sm-4">
-                     <div class="icon_1"><img src="images/icon-4.png"></div>
-                     <h4 class="design_text">Banner Design</h4>
-                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
-                     <div class="icon_1"><img src="images/icon-5.png"></div>
-                     <h4 class="design_text">Social Media Work</h4>
-                     <p class="lorem_text">Lorem ipsum dolor sit amet, consectetur adipiscing </p>
+                  <div class="col-md-4">
+                     <div class="box_main">
+                        <div><img src="images/img-5.png" class="student_bg"></div>
+                        <div class="image_15">19<br>Feb</div>
+                        <h4 class="hannery_text">There are many variations</h4>
+                        <p class="fact_text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud </p>
+                     </div>
                   </div>
                </div>
             </div>
          </div>
       </div>
-      <!--services section end -->
+      <!--blog section end -->
+      <!--newsletter section start -->
+      <div class="newsletter_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1 class="newsletter_text">Subscribe Now </h1>
+                  <p class="tempor_text">dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim </p>
+               </div>
+               <div class="col-md-6">
+                  <div class="mail_bt_main">
+                     <input type="text" class="mail_text" placeholder="Enter Tour Mail" name="Enter Tour Mail">
+                     <div class="subscribe_bt"><a href="#">SUBSCRIBE</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--newsletter section end -->
       <!--footer section start -->
-      <div class="footer_section layout_padding margin_top_90">
+      <div class="footer_section layout_padding">
          <div class="container">
             <div class="address_main">
                <div class="address_text"><a href="#"><img src="images/map-icon.png"><span class="padding_left_15">Loram Ipusm hosting web</span></a></div>
@@ -114,10 +103,10 @@
                      <h4 class="link_text">Useful link</h4>
                      <div class="footer_menu">
                         <ul>
-                           <li><a href="index.html">Home</a></li>
-                           <li><a href="about.html">About</a></li>
-                           <li><a href="services.html">Services</a></li>
-                           <li><a href="contact.html">Contact Us</a></li>
+                           <li><a href="index.php">Home</a></li>
+                           <li><a href="about.php">About</a></li>
+                           <li><a href="services.php">Services</a></li>
+                           <li><a href="contact.php">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>
