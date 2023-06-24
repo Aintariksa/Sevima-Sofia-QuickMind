@@ -75,7 +75,7 @@ function masuk($post) {
             echo "
             <script>
                 alert('Selamat datang di dashboard user!');
-                document.location.href = 'user/index.php';
+                document.location.href = 'index.php';
             </script>
             ";
         }
